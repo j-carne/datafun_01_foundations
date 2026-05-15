@@ -118,6 +118,8 @@ uvx pre-commit run --all-files
 
 # run the module
 uv run python -m datafun.app_case
+# command will run the copied file under my name
+uv run python -m datafun.app_jcarne
 
 # do chores
 uv run ruff format .
@@ -188,3 +190,6 @@ Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 ```
 
 ![VS Code - Running Commands](./docs/images/vscode_running_commands.png)
+
+## Notes
+- Snowfall amounts have been updated in the python code list to historical amounts for Worland, WY for all 12 months of the year.
